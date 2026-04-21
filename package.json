@@ -1,0 +1,20 @@
+{
+  "name": "discord-vc-joiner-bot",
+  "version": "2.0.0",
+  "description": "Advanced Discord VC Joiner Bot with 24/7 capability",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.16.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "libsodium-wrappers": "^0.7.13",
+    "ffmpeg-static": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
