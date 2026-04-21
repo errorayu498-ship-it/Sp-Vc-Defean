@@ -326,9 +326,9 @@ class CommandHandler {
                 // Reset bot status
                 client.user.setPresence({
                     activities: [{
-                        name: `${config.prefix}help | 24/7 Ready`,
+                        name: `Made By Subhan`,
                         type: ActivityType.Streaming,
-                        url: 'https://twitch.tv/discord'
+                        url: 'https://youtube.com/watch?v=2EPutYKTIB8'
                     }],
                     status: 'online'
                 });
@@ -428,7 +428,7 @@ class CommandHandler {
                 inline: false
             })
             .setTimestamp()
-            .setFooter({ text: 'Made with ❤️ | Advanced VC Bot' });
+            .setFooter({ text: 'Made By Subhan | Advanced VC Bot' });
 
         await message.reply({ embeds: [embed] });
     }
@@ -444,9 +444,9 @@ client.once('ready', () => {
     // Set initial status
     client.user.setPresence({
         activities: [{
-            name: `${config.prefix}help | 24/7 Ready`,
+            name: `Made By Subhan`,
             type: ActivityType.Streaming,
-            url: 'https://twitch.tv/discord'
+            url: 'https://youtube.com/watch?v=2EPutYKTIB8'
         }],
         status: 'online'
     });
